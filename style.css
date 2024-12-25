@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: #548687; */
+    background-color: #FFE87C;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+    background-color: #FFDB58;
+    width: 500px;
+    margin-left: 450px;
+    border-radius: 2rem;
+    border: 10px solid white;
+    margin-bottom: 5px;
+}
+.game{
+    /* height: 60vmin; */
+    height: 60vh;
+    width: 60vh;
+    /* display flex to arrange and flex wrap if not space in next line*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vh;
+    width: 18vh;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+    font-size: 8vmin;
+    /* color: #b0413e; */
+    /* here background color if not write then after button click the its looking transparent */
+    background-color: #ffffc7 ;
+    border: 2px solid rgb(202, 211, 7 );
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.7rem;
+    background-color: rgb(3, 126, 15 );
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+#msg{
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hide{
+    display: none;
+}
+#msg{
+    font-size: 5rem;
+}
